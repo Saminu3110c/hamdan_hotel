@@ -20,15 +20,15 @@ while($res=mysqli_fetch_assoc($sql))
     $path = "../images/customer_img/$picture";
 ?>
 <tr>
-		<td><?php echo $i;$i++; ?></td>
-		<td><?php echo $res['name']; ?></td>
-		<td><?php echo $res['email']; ?></td>
-		<td><?php echo $res['mobile']; ?></td>
-		<td><?php echo $res['address']; ?></td>
-		<td><?php echo $res['gender']; ?></td>
-        <td><?php echo $res['state']; ?></td>
-		<td><?php echo $res['country']; ?></td>
-		<td><img src="<?php echo $path; ?>" alt="" width="100%" height="100%" style="object-fit:cover;"></td>
+	<td><?php echo $i;$i++; ?></td>
+	<td><?php echo $res['name']; ?></td>
+	<td><?php echo $res['email']; ?></td>
+	<td><?php echo $res['mobile']; ?></td>
+	<td><?php echo $res['address']; ?></td>
+	<td><?php echo $res['gender']; ?></td>
+    <td><?php echo $res['state']; ?></td>
+	<td><?php echo $res['country']; ?></td>
+	<td><img src="<?php echo $path; ?>" alt="" width="100%" height="100%" style="object-fit:cover;"></td>
 	</td>
 	</tr>	
 <?php 	
