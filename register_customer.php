@@ -38,16 +38,7 @@ $err = '';
         }
     }
 
-/*
-    $imgNew=$_FILES['img']['name'];
-	
-	$sql="insert into slider values('','$imgNew','$cap')";	
-	
-	if(mysqli_query($con,$sql))
-	{
-	move_uploaded_file($_FILES['img']['tmp_name'],"../image/Slider/".$_FILES['img']['name']);	
-	header('location:dashboard.php?option=slider');	
-	} */
+
 ?>
 
 <!DOCTYPE html>
