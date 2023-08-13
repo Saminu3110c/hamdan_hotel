@@ -23,7 +23,6 @@ while($res=mysqli_fetch_assoc($sql))
 		<td><?php echo $i;$i++; ?></td>
 		<td><?php echo $res['name']; ?></td>
 		<td><?php echo $res['email']; ?></td>
-		<!--<td><?php echo $res['password']; ?></td> -->
 		<td><?php echo $res['mobile']; ?></td>
 		<td><?php echo $res['address']; ?></td>
 		<td><?php echo $res['gender']; ?></td>
