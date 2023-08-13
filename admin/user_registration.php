@@ -4,7 +4,6 @@
 		<th>Sr No</th>
 		<th>Name</th>
 		<th>Email</th>
-		<!--<th>Password</th> -->
 		<th>Mobile</th>
 		<th>Address</th>
 		<th>Gender</th>
